@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Shopping List</h1>
+    <form>
+      <input type="text" id="item" placeholder="Item. e.g. Coffee" /> x
+      <input type="number" id="quantity" placeholder="Quantity. e.g. 1" />
+      <button id="add">Add item to list</button>
+    </form>
+    <p id="shopping-list-display"></p>
+
+    <hr />
+    <h1>Shopping Basket</h1>
+    <p>
+      Enter all the products you've put into your shopping basket, sperated by
+      commas, to see if you've forgotten anything.
+    </p>
+    <form>
+      <input
+        type="text"
+        id="shopping-basket"
+        placeholder="eg. Milk,,Bread,Eggs"
+      />
+      <button id="basket-btn">Add item(s) to basket</button>
+    </form>
+    <p id="items-still-to-buy-display"></p>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+#flex-box {
+    display: flex;
+    background-color: pink;
+    /* flex-direction: column; */
+    height: 5rem;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#flex-box-2 {
+    margin-top: 2rem;
+    display: flex;
+    background-color: black;
+    height: 10rem;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+.child-el1 {
+    /* default display value for dev */
+    display:block;
+    background-color: aqua;
+}
+
+.child-el2 {
+    display: inline;
+    background-color: red;
+}
+
+.child-el3 {
+    /* display: none; */
+    background-color: yellowgreen;
+}
+
+.child-el4 {
+    background-color: green;
+}
+
+.child-el5 {
+    background-color: purple;
+}

@@ -1,0 +1,42 @@
+/* use universal Selector to set up global styling*/
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    border: 1px dotted grey;
+    /*apply to all element include body*/
+}
+
+/* remove the margin for body */
+body {
+    /* margin: 0; */
+}
+
+h1 {
+    background-color: aqua;
+}
+
+p {
+    background-color: rgb(0, 255, 42);
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    background-color: hotpink;
+}
+
+/* add border and padding on the top of original width and height */
+.content-box {
+    background-color: aqua;
+    box-sizing: content-box;
+    border: 5px solid orange;
+    padding: 20px;
+}
+
+/* still keep the original width and height after add border and padding */
+.border-box {
+    background-color: pink;
+    box-sizing: border-box;
+    border: 5px solid black;
+    padding: 20px;
+}

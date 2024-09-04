@@ -1,0 +1,85 @@
+body {
+    font-family: "Tahoma";
+}
+
+main {
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+#left {
+    /* background-color: royalblue; */
+    /* 45% of the main element */
+    width: 45%;
+    margin: 30px 100px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#right {
+    /* background-color: goldenrod; */
+    /* 55% of the main element */
+    width: 55%;
+    text-align: center;
+}
+
+#image {
+    width: 90%;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    /* Use border line check */
+    /* border: 1px solid black; */
+    margin: 50px 100px;
+    gap: 40px;
+}
+
+.nav-link {
+    /* border: 1px solid blue; */
+    list-style: none;
+    margin: 2px 5px;
+    padding: 8px 15px;
+}
+
+.btn {
+    background-color: #d8e4ef;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #396ee1;
+    color: white;
+}
+
+#left h1 {
+    font-size: 40px;
+}
+
+p {
+    margin: 35px 0px;
+}
+
+.chat-btn {
+    display: block;
+    border: none;
+    width: 200px;
+    padding: 14px 25px;
+    margin: 10px 0px;
+    /* <button> does not inherit
+    font style from the <body>
+    or other parent elements
+    by default*/
+    font-family: inherit;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: #396ee1;
+}

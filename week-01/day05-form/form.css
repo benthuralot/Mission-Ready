@@ -1,0 +1,82 @@
+input {
+    width: 40%;
+}
+
+label {
+    font-family:Tahoma, sans-serif;
+}
+
+/* Attribute Selector */
+[type="text"], [type="email"] {
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+
+[type="radio"] {
+    width: 40px;
+}
+/* Next-sibling Selector */
+[type="radio"] + label {
+    color: purple;
+}
+
+textarea {
+    border: 2px solid purple;
+}
+
+[type="submit"] {
+    background-color: purple;
+    color: white;
+    width: 30%;
+}
+/* The element  to apply the transition to */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 1s, height 1s, color 1s, background-color 1s;
+
+    /* delay transition start for 2 seconds */
+    transition-delay: 1s;
+
+    /* play transition slow and begining and end */
+    transition-timing-function: ease-in-out;
+}
+div:hover {
+    width: 200px;
+    height: 200px;
+    background-color: #639eef;
+    color: antiquewhite;
+}
+
+/* CSS Animation */
+
+@keyframes changecolor {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: burlywood;
+    }
+}
+
+/* CSS Animations using percentage 0% to 100% */
+@keyframes move{
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    75% {background-color: green; left: 0px; top: 200px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: move;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}

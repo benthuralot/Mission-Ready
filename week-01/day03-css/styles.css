@@ -1,0 +1,69 @@
+/* CSSS Rule */
+h1 {
+    font-size: 50px;
+    background-color: rgb(122, 189, 248);
+}
+
+/* Class Selector */
+
+.button {
+    background-color: blanchedalmond;
+}
+
+/* ID Selector */
+
+#header {
+    color: blueviolet;
+}
+
+/* Descendant Selector */
+
+#container li {
+    background-color: bisque;
+}
+#container b {
+    color: rgb(35, 226, 9);
+}
+
+/* Child Selector */
+
+ol>li {
+    color: rgb(194, 0, 184);
+}
+
+/* Grouping Selector */
+
+.heading1,h2,h3 {
+    background-color: rgb(204, 255, 255);
+    color: rgb(17, 0, 255);
+}
+
+/* Pseudo-Class Selector */
+
+.button:hover {
+    font-size: 50px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.button:active {
+    background-color: firebrick;
+}
+.button:focus {
+    background-color: rgb(88, 236, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: hotpink;
+}
+
+/* weight 10 */
+
+.paragraph {
+    color: aqua;
+}
+.paragraph {
+    color: red;
+}
+/* weight 100 */
+#paragraph {
+    color: darkblue;
+}

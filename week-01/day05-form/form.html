@@ -1,0 +1,36 @@
+<!-- ! + ENTER shortcut for html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="mailto:hershyls@missionready.com" method="post" autocomplete="on">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Please enter your name .."> <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required placeholder="Please enter your email.."> <br>
+        <!-- Radio buttons -->
+        <label for="subject">Subject:</label> <br>
+        <input type="radio" id="sales" name="sales"> 
+        <label for="sales">Sales</label><br>
+        <input type="radio" id="support" name="support"> 
+        <label for="sales">Support</label><br>
+        <input type="radio" id="other" name="other">
+        <label for="other">Other</label><br>
+        <!-- Text Area Message -->
+        <label for="message">Message:</label> <br>
+        <textarea id="message" name="message" placeholder="Type here.."></textarea> <br>
+        <!-- Value for the Submit button -->
+        <input type="submit" value="Submit button">
+    </form>
+
+    <div>CSS Transition</div>
+    <div class="animation">CSS Animation</div>
+
+</body>
+
+</html>
