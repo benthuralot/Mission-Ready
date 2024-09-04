@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Randyl's Solar System</title>
+  </head>
+  <header>
+    <h1 id="neon">Randyl's Solar System</h1>
+    <p>Discover the 8 planets within our Solar System</p>
+    <button id="light-btn">⚡</button>
+    <hr />
+  </header>
+  <body>
+    <section id="planets">
+      <h1>The Planets</h1>
+
+      <div class="planets-row">
+        <div class="planet" id="mercury">
+          <h2>Mercury</h2>
+          <p><i>“The Swift Planet”</i></p>
+          <img src="images/mercury.png" class="thumbnail" />
+        </div>
+        <div class="planet" id="venus">
+          <h2>Venus</h2>
+          <p><i>“Morning and Evening Star”</i></p>
+          <img src="images/venus.png" class="thumbnail" />
+        </div>
+        <div class="planet" id="earth">
+          <h2>Earth</h2>
+          <p><i>“The Blue Planet”, “The World”</i></p>
+          <img src="images/earth.png" class="thumbnail" />
+        </div>
+        <div class="planet" id="mars">
+          <h2>Mars</h2>
+          <p><i>“The Red Planet”</i></p>
+          <img src="images/mars.png" class="thumbnail" />
+        </div>
+      </div>
+
+      <div class="planets-row">
+        <div class="planet" id="jupiter">
+          <h2>Jupiter</h2>
+          <p><i>“The Gas Giant”</i></p>
+          <img src="images/jupiter.png" class="thumbnail" />
+        </div>
+        <div class="planet" id="saturn">
+          <h2>Saturn</h2>
+          <p><i>“The Ringed Planet”</i></p>
+          <img src="images/saturn.png" class="thumbnail" />
+        </div>
+        <div class="planet" id="uranus">
+          <h2>Uranus</h2>
+          <p><i>“The Bull’s Eye”</i></p>
+          <img src="images/uranus.png" class="thumbnail" />
+        </div>
+        <div class="planet" id="neptune">
+          <h2>Neptune</h2>
+          <p><i>“The Big Blue Planet”</i></p>
+          <img src="images/neptune.png" class="thumbnail" />
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz">
+      <h2>Solar System Quiz</h2>
+      <div class="question">
+        <p>1. Which planet is known as the Red Planet?</p>
+        <label> <input type="radio" name="q1" value="Venus" /> Venus </label>
+        <label>
+          <input type="radio" name="q1" value="Jupiter" /> Jupiter
+        </label>
+        <label> <input type="radio" name="q1" value="Mars" /> Mars </label>
+        <label> <input type="radio" name="q1" value="Saturn" /> Saturn </label>
+      </div>
+
+      <div class="question">
+        <p>2. Which planet is the largest in our solar system?</p>
+        <label> <input type="radio" name="q2" value="Saturn" /> Saturn </label>
+        <label>
+          <input type="radio" name="q2" value="Neptune" /> Neptune
+        </label>
+        <label> <input type="radio" name="q2" value="Earth" /> Earth </label>
+        <label>
+          <input type="radio" name="q2" value="Jupiter" /> Jupiter
+        </label>
+      </div>
+
+      <div class="question">
+        <p>3. Which planet is known as the "Morning Star"?</p>
+        <label><input type="radio" name="q3" value="Mars" />Mars</label>
+        <label><input type="radio" name="q3" value="Venus" />Venus</label>
+        <label><input type="radio" name="q3" value="Mercury" />Mercury</label>
+        <label><input type="radio" name="q3" value="Jupiter" />Jupiter</label>
+      </div>
+
+      <div class="question">
+        <p>4. What is the smallest planet in our solar system?</p>
+        <label> <input type="radio" name="q4" value="Pluto" />Pluto</label>
+        <label><input type="radio" name="q4" value="Mars" />Mars</label>
+        <label><input type="radio" name="q4" value="Mercury" />Mercury</label>
+        <label> <input type="radio" name="q4" value="Earth" />Earth</label>
+      </div>
+
+      <div class="question">
+        <p>5. Which planet has the most moons?</p>
+        <label><input type="radio" name="q5" value="Jupiter" />Jupiter</label>
+        <label><input type="radio" name="q5" value="Saturn" />Saturn</label>
+        <label><input type="radio" name="q5" value="Uranus" />Uranus</label>
+        <label><input type="radio" name="q5" value="Neptune" />Neptune</label>
+      </div>
+
+      <div class="question">
+        <p>What is the name of the largest moon of Saturn?</p>
+        <label><input type="radio" name="q6" value="Europa" />Europa</label>
+        <label><input type="radio" name="q6" value="Ganymede" />Ganymede</label>
+        <label><input type="radio" name="q6" value="Titan" />Titan</label>
+        <label><input type="radio" name="q6" value="Callisto" />Callisto</label>
+      </div>
+
+      <div class="question">
+        <p>
+          Which planet has the highest mountain in our solar system, Olympus
+          Mons?
+        </p>
+        <label><input type="radio" name="q7" value="Mars" />Mars</label>
+        <label> <input type="radio" name="q7" value="Saturn" />Saturn</label>
+        <label><input type="radio" name="q7" value="Venus" />Venus</label>
+        <label><input type="radio" name="q7" value="Jupiter" />Jupiter</label>
+      </div>
+
+      <!-- Add more questions here -->
+
+      <button id="submit-quiz">Submit Quiz</button>
+      <div id="quiz-result"></div>
+    </section>
+  </body>
+</html>
