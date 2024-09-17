@@ -1,0 +1,6 @@
+.cssModule {
+  /* Relative path */
+  background-image: url("../assets/dog-src.jpg");
+  height: 20rem;
+  background-size: cover;
+}

@@ -1,0 +1,5 @@
+.image-div {
+  background-image: url("/dog-public.jpg");
+  height: 20rem;
+  background-size: cover;
+}
